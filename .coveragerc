@@ -1,0 +1,21 @@
+[run]
+branch = True
+omit =
+    */migrations/*.py
+    manage.py
+    */tests/*.py
+    products/admin.py
+    products/apps.py
+    suppliers/admin.py
+    suppliers/apps.py
+    users/admin.py
+    users/apps.py
+    core/asgi.py
+    core/wsgi.py
+
+
+
+[report]
+show_missing = True
+
+

@@ -1,0 +1,30 @@
+[tool.poetry]
+name = "electronics-retail-chain"
+version = "0.1.0"
+description = ""
+authors = ["Заберов Дмитрий <zaberov.dv@internet.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+django = ">=4.2.13,<4.3.0"
+django-filter = "^24.2"
+djangorestframework = "^3.15.1"
+djoser = "^2.2.2"
+pillow = "^10.3.0"
+psycopg2-binary = "^2.9.9"
+python-dotenv = "^1.0.1"
+phonenumbers = "^8.13.37"
+drf-spectacular = "^0.27.2"
+drf-yasg = "^1.21.7"
+djangorestframework-simplejwt = "^5.3.1"
+django-phonenumber-field = "^7.3.0"
+django-cors-headers = "^4.3.1"
+
+
+[tool.poetry.group.dev.dependencies]
+coverage = "^7.5.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
